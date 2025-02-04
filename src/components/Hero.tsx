@@ -54,7 +54,7 @@ export const Hero: React.FC = () => {
             Download Resume
           </motion.a>
           <div className="flex gap-4">
-            <SocialLink href="https://github.com/thunderbolt181" icon={<Github />} />
+            <SocialLink href="https://github.com/baghelsachin47" icon={<Github />} />
             <SocialLink href="https://www.linkedin.com/in/sachin-baghel-a71a78216/" icon={<Linkedin />} />
             <SocialLink href="mailto:baghel.sachin47@gmail.com" icon={<Mail />} />
           </div>
