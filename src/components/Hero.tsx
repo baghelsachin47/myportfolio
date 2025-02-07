@@ -22,18 +22,17 @@ export const Hero: React.FC = () => {
             />
         </div>
         <motion.h1 
-          className="flex flex-col justify-center text-5xl md:text-7xl font-bold text-center mb-6 text-primary"
+          className="flex flex-col justify-center text-4xl md:text-5xl font-bold text-center mb-6 text-primary"
         >
-          <p className="text-2xl">Hey, I'm</p> <p className='custom-text-color'>Sachin Baghel</p><p className="text-3xl pt-3">I design things for the web</p>
+          <p className="text-lg">Hey, I'm</p> <p className='custom-text-color'>Sachin Baghel</p><p className="text-lg pt-3">I design things for the web</p>
         </motion.h1>
         
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="text-xl md:text-2xl text-center mb-8 dark:text-gray-300 text-gray-700"
-        >
-          I'm full-stack developer based in India. I specialize in creating dynamic web applications using Django and React, 
+          className="text-base md:text-base text-center mb-8 dark:text-gray-300 text-gray-700">
+          I'm a full-stack developer based in India. I specialize in creating dynamic web applications using Django and React, 
           with a focus on building accessible, human-centered products.
         </motion.p>
 
@@ -48,7 +47,7 @@ export const Hero: React.FC = () => {
             whileTap={{ scale: 0.95 }}
             href={Resume}
             className="px-4 py-1 bg-transparent backdrop-blur-md text-blue-600 rounded-lg 
-                       transition-all duration-300 font-semibold text-lg border-2 border-transparent 
+                       transition-all duration-300 font-semibold text-base border-2 border-transparent 
                        hover:border-white hover:text-white"
           >
             Download Resume

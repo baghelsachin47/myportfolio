@@ -19,7 +19,7 @@ export const SkillsSection: React.FC = () => {
   return (
     <section id="skills" className="py-10 px-4 relative overflow-hidden">
       <div className="container mx-auto max-w-7xl">
-        <h2 className="text-4xl font-bold mb-12 text-center">Skills</h2>
+        <h2 className="text-3xl font-bold mb-12 text-center">Skills</h2>
         
         <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 max-w-4xl mx-auto">
           {skills.map((skill, index) => (
@@ -29,8 +29,8 @@ export const SkillsSection: React.FC = () => {
                          border border-white/20 shadow-lg hover:border-primary/30 transition-all duration-300"
             >
               <div className="p-4 text-center">
-                <div className="flex items-center justify-center mb-4 text-5xl">{skill.icon}</div>
-                <span className="text-sm text-center skill-name">{skill.name}</span>
+                <div className="flex items-center justify-center mb-4 text-4xl">{skill.icon}</div>
+                <span className="text-xs text-center skill-name">{skill.name}</span>
               </div>
             </div>
           ))}

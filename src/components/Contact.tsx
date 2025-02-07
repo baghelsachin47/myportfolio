@@ -12,15 +12,18 @@ export const Contact: React.FC = () => {
         transition={{ duration: 0.6 }}
         className="container mx-auto max-w-2xl"
       >
-        <h2 className="text-4xl font-bold mb-12 text-center">Get in Touch</h2>        
+        <h2 className="text-3xl font-bold mb-12 text-center">Get in Touch</h2>
+
         <div className="mt-8 text-center flex flex-col items-center justify-center">
-          <p className="text-lg mb-4">I'm open to new opportunities! Feel free to reach out, 
+          <p className="text-base mb-4">I'm open to new opportunities! Feel free to reach out,
+
                                       and I'll get back to you as soon as I can.</p>
           <a href="mailto:baghel.sachin47@gmail.com"><motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
-            className="px-4 py-1 bg-transparent backdrop-blur-md text-white rounded-lg 
-                       transition-all duration-300 font-semibold text-lg border-2
+            className="px-4 py-1 bg-transparent backdrop-blur-md text-white rounded-lg text-base
+
+                       transition-all duration-300 font-semibold text-base border-2
                        hover:border-white hover:text-white flex"
           >
             <Send className="w-5 h-5 my-1 mr-2" />Let's Connect
