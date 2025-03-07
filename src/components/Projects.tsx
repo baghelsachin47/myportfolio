@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, ExternalLink, MailIcon, Gamepad2, RssIcon, Share2, School } from 'lucide-react';
+import { Github, ExternalLink, MailIcon, Gamepad2, RssIcon, Share2, School, Video } from 'lucide-react';
 import type { Project } from '../types';
 
 const projects: Project[] = [
@@ -20,6 +20,13 @@ const projects: Project[] = [
     // liveUrl: "https://example.com"
   },
   {
+    title: "ClipCraft",
+    description: "ClipCraft is standalone application to reduse the size of video via multiple compression techniques using ffmpeg.",
+    icon: <Video className="w-12 h-12 text-primary" />,
+    technologies: ["Python3", "ffmpeg", "tkinter"],
+    githubUrl: "https://github.com/baghelsachin47/ClipCraft",
+  },
+  {
     title: "Blog Website",
     description: "Developed a blog website where users can upload images, manage their own posts, and view all the posts from other users.",
     icon: <RssIcon className="w-12 h-12 text-primary" />,
@@ -37,7 +44,7 @@ const projects: Project[] = [
     title: "MSMS",
     description: "Multi-School Management System to track Attendance and  information of everyone in School and able to handle multiple schools.",
     icon: <School className="w-12 h-12 text-primary" />,
-    technologies: ["Python3", "Django", "JavaScript", "HTML/CSS", "tailwindCSS"],
+    technologies: ["Python3", "Django", "JavaScript", "HTML/CSS", "tailwindCSS","postgresql"],
     githubUrl: "https://github.com/baghelsachin47/SchoolManagementSystem",
   },
 ];
